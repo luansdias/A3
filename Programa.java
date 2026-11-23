@@ -28,7 +28,7 @@ public class Programa {
             
             if(resposta == 1) {
                 System.out.println("Se deseja cadastrar um cliente, digite 1. \nSe deseja cadastrar um serviço, digite 2"
-                + "\n3: Se deseja cadastrar um atendimento, digite 3.");
+                + "\nSe deseja cadastrar um atendimento, digite 3.");
                 int a = leia.nextInt();
                 while(a != 1 && a != 2 && a != 3) {
                     System.out.println("Opção inválida. Por favor, digite novamente.");
