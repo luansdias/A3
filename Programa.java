@@ -40,7 +40,7 @@ public class Programa {
                 if(a == 1) {
                     System.out.println("Digite o nome do cliente:");
                     String nome = leia.nextLine();
-                    System.out.println("Digite a data de nascimento do cliente:");
+                    System.out.println("Digite a data de nascimento do cliente, digite no formato ANO-MÊS-DIA:");
                     LocalDate nascimento = LocalDate.parse(leia.nextLine());
                     System.out.println("Digite o telefone do cliente:");
                     String telefone = leia.nextLine();
@@ -144,7 +144,7 @@ public class Programa {
                         else {
                             System.out.println("Digite o nome");
                             String novoNome = leia.nextLine();
-                            System.out.println("Digite a data de nascimento:");
+                            System.out.println("Digite a data de nascimento, digite no formato ANO-MÊS-DIA");
                             LocalDate novoNascimento = LocalDate.parse(leia.nextLine());
                             System.out.println("Digite o telefone:");
                             String novoTelefone = leia.nextLine();
