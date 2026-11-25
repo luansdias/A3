@@ -4,7 +4,6 @@ public class Servico {
     private double precoServico;
     private String id;
     
-    
     public String getNomeServico() {
         return nomeServico;
     }
@@ -30,5 +29,4 @@ public class Servico {
     public void setPrecoServico(double precoServico) {
         this.precoServico = precoServico;
     }
-    
 }
